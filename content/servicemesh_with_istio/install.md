@@ -8,7 +8,7 @@ draft: false
 ### Install Istio's CRD
 The [Custom Resource Definition, also known as a CRD](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#customresourcedefinitions), is an API resource which allows you to define custom resources. 
 ```
-kubectl apply -f install/kubernetes/helm/istio/templates/crds.yaml
+kubectl apply -f install/kubernetes/helm/istio-init/files
 ```
 
 ### Install Istio
